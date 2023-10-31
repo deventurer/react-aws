@@ -47,6 +47,7 @@ body {
 
 .card {
   padding: 2em;
+  border-bottom: #888888 2px solid;
 }
 
 .read-the-docs {
