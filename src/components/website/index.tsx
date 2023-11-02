@@ -3,6 +3,7 @@ import viteOne from "../../assets/vite-1.png";
 import viteTwo from "../../assets/vite-2.png";
 import folder from "../../assets/folder.png";
 import S3bucket from "./S3bucket";
+import Cloudfront from "./Cloudfront";
 import "./website.css";
 //import React from 'react'
 
@@ -75,6 +76,7 @@ function Website (){
                 </p>
             </div>
             <S3bucket/>
+            <Cloudfront/>
         </div>
     )
 }
