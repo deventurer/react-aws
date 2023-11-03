@@ -21,7 +21,7 @@ function Website (){
                         </a>
                             to create a React.js app and bundle it.</li>
                         <li>Create an AWS S3 bucket and deploy the app there.</li>
-                        <li>Create an SSL certificate using ACM (AWS Certificate Manager</li>
+                        <li>Create an SSL certificate using ACM (AWS Certificate Manager).</li>
                         <li>Create a Cloudfront distribution which point to the S3 bucket and uses the SSL certificate created in ACM.</li>
                         <li>Create a CNAME or DNS entry using AWS Route 53 and map it to the Cloudfront distribution.</li>
                     </ul>
