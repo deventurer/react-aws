@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "label": "React App on AWS",
+      "value": "website",
+      "path": "/"
+    },
+    {
+      "label": "Microservices",
+      "value": "microservices",
+      "path": "/microservices"
+    },
+    {
+      "label": "Design Patterns",
+      "value": "patterns",
+      "path": "/patterns"
+    },
+    {
+      "label": "Youtube",
+      "value": "youtube",
+      "path": "/youtube"
+    },
+    {
+      "label": "About",
+      "value": "about",
+      "path": "/about"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.nav{
+    width: 15%;
+    border-right: 2px solid #888888;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navItem {
+    color: lightblue;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .nav{
+        width: 100%;
+        border-bottom: #888888 2px solid;
+    }
+    .navItem {
+        color: lightblue;
+        cursor: pointer;
+        display: inline;
+        margin-right: 5px;
+    }
+}

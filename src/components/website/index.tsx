@@ -5,7 +5,6 @@ import folder from "../../assets/folder.png";
 import S3bucket from "./S3bucket";
 import Cloudfront from "./Cloudfront";
 import "./website.css";
-//import React from 'react'
 
 function Website (){
     return (
@@ -42,8 +41,8 @@ function Website (){
                         <li>
                             A build command that bundles your code, pre-configured to output highly optimized static assets for production.
                             Essentially when you run <code> npm run build</code>, it creates a <i>dist</i> folder within the root of your project
-                            as shown below which contains all your deployable assets, properly uglified and minified:
-                            <img src={distImg}/>
+                            as shown below which contains all your deployable assets, properly uglified and minified:<br/><br/>
+                            <img src={distImg}  width={600} height={300}/>
                         </li>
                     </ul>
                 </p>
