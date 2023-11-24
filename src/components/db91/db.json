@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "rno": "1",
+      "name": "macLUND",
+      "details": "shire",
+      "birth": "everyday"
+    },
+    {
+      "rno": "2",
+      "name": "manmuthan",
+      "details": "gohpur",
+      "birth": "01/01/1956"
+    },
+    {
+      "rno": "3",
+      "name": "dusto",
+      "details": "pregnant - maternity ward",
+      "birth": "unknown"
+    },
+    {
+      "rno": "4",
+      "name": "randu singham",
+      "details": "slum",
+      "birth": "02/11/1974"
+    }
+  ]
+}

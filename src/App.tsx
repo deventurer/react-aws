@@ -5,14 +5,22 @@ import './App.css'
 import Website from "./components/website/index"
 import About from "./components/about/index"
 import DesignPattern from "./components/dpatterns/index"
+import Strategy from "./components/dpatterns/strategy"
+import AbstractFactory from "./components/dpatterns/abspattern"
+import Observer from "./components/dpatterns/ObserverPattern"
+import Decorator from "./components/dpatterns/DecoratorPattern"
+import Factory from "./components/dpatterns/FactoryPattern"
+import Singleton from "./components/dpatterns/Singleton"
 import Youtube from "./components/youtube/index"
 import Microservices from "./components/microservices/index"
 import Navigation from "./components/navigation/index"
+import DB91 from "./components/db91/index"
 import logo from "./assets/LOGO.svg"
 import {
     BrowserRouter as Router,
     Routes,
-    Route
+    Route,
+    Outlet
 } from "react-router-dom";
 import {Fragment} from 'react'
 
@@ -38,28 +46,38 @@ function App() {
         <div className="headerTitle"> Deventurer </div>
       </div>
         <div className="container">
-
-            <Navigation/>
-
-                <Routes>
+            <Routes>
                     <Fragment>
-                        <Route path="/" element={<Website/>}>
+                        <Route path="/db91" element={<DB91/>} />
+                        <Route element={<><Navigation/><Outlet/></>}>
+                            <Route path="/" element={<Website/>}>
+                            </Route>
+                            <Route path="/about" element={<About />}>
+                            </Route>
+                            <Route path="/microservices" element={<Microservices/>}>
+                            </Route>
+                            <Route path="/youtube" element={<Youtube/>}>
+                            </Route>
+                            <Route path="/patterns" element={<DesignPattern/>}>
+                            </Route>
+                            <Route path="/patterns/strategy" element={<Strategy/>}>
+                            </Route>
+                            <Route path="/patterns/abstractfactory" element={<AbstractFactory/>}>
+                            </Route>
+                            <Route path="/patterns/observer" element={<Observer/>}>
+                            </Route>
+                            <Route path="/patterns/decorator" element={<Decorator/>}>
+                            </Route>
+                            <Route path="/patterns/factory" element={<Factory/>}>
+                            </Route>
+                            <Route path="/patterns/singleton" element={<Singleton/>}>
+                            </Route>
                         </Route>
-                        <Route path="/about" element={<About />}>
-                        </Route>
-                        <Route path="/microservices" element={<Microservices/>}>
-                        </Route>
-                        <Route path="/youtube" element={<Youtube/>}>
-                        </Route>
-                        <Route path="/patterns" element={<DesignPattern/>}>
-                        </Route>
+
                     </Fragment>
 
                 </Routes>
-
-
-
-        </div>
+            </div>
       <div className="footer">
         <h3>Deventurer.com</h3>
       </div>

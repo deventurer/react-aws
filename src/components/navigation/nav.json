@@ -13,7 +13,39 @@
     {
       "label": "Design Patterns",
       "value": "patterns",
-      "path": "/patterns"
+      "path": "/patterns",
+      "content": [
+        {
+          "label": "Strategy",
+          "value": "Strategy",
+          "path": "/patterns/strategy"
+        },
+        {
+          "label": "Abstract Factory",
+          "value": "Abstract Factory",
+          "path": "/patterns/abstractfactory"
+        },
+        {
+          "label": "Observer",
+          "value": "Observer",
+          "path": "/patterns/observer"
+        },
+        {
+          "label": "Decorator",
+          "value": "Decorator",
+          "path": "/patterns/decorator"
+        },
+        {
+          "label": "Factory",
+          "value": "Factory",
+          "path": "/patterns/factory"
+        },
+        {
+          "label": "Singleton",
+          "value": "Singleton",
+          "path": "/patterns/singleton"
+        }
+      ]
     },
     {
       "label": "Youtube",

@@ -4,6 +4,7 @@
   /*padding: 2rem;*/
   text-align: center;
   width: 100%;
+  background-color: #242424;
 }
 body {
   margin: 0 auto 0 10px;
@@ -80,13 +81,13 @@ body {
 .footer {
   text-align: center;
   border-top: #888888 2px solid;
-  height: 10%;
+  height: 5%;
 }
 .container {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 80%;
+  height: 85%;
 }
 @media only screen and (max-width: 768px){
   .container{

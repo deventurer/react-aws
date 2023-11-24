@@ -6,7 +6,7 @@ function DesignPatterns () {
 
             <article>
                 <header>
-                    <h1>Introduction to Software Design Patterns</h1>
+                    <h2>Introduction to Software Design Patterns</h2>
                 </header>
 
                 <section>
