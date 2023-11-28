@@ -15,6 +15,14 @@ import Youtube from "./components/youtube/index"
 import Microservices from "./components/microservices/index"
 import Navigation from "./components/navigation/index"
 import DB91 from "./components/db91/index"
+import AWS from "./components/aws/index"
+import Apigateway from "./components/aws/ApiGateway"
+import Lambda from "./components/aws/Lambda"
+import StepFunction from "./components/aws/StepFunction"
+import EventBridge from "./components/aws/EventBridge"
+import AppSync from "./components/aws/AppSync"
+import SNS from "./components/aws/SNS"
+import SQS from "./components/aws/SQS"
 import logo from "./assets/LOGO.svg"
 import {
     BrowserRouter as Router,
@@ -71,6 +79,22 @@ function App() {
                             <Route path="/patterns/factory" element={<Factory/>}>
                             </Route>
                             <Route path="/patterns/singleton" element={<Singleton/>}>
+                            </Route>
+                            <Route path="/aws" element={<AWS/>}>
+                            </Route>
+                            <Route path="/aws/apigateway" element={<Apigateway/>}>
+                            </Route>
+                            <Route path="/aws/lambdas" element={<Lambda/>}>
+                            </Route>
+                            <Route path="/aws/stepfunctions" element={<StepFunction/>}>
+                            </Route>
+                            <Route path="/aws/eventbridge" element={<EventBridge/>}>
+                            </Route>
+                            <Route path="/aws/appsync" element={<AppSync/>}>
+                            </Route>
+                            <Route path="/aws/sns" element={<SNS/>}>
+                            </Route>
+                            <Route path="/aws/sqs" element={<SQS/>}>
                             </Route>
                         </Route>
 

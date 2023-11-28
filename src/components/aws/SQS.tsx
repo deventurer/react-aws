@@ -1,8 +1,8 @@
-import markdownfile  from './md/aws.md'
+import markdownfile  from './md/sqs.md'
 import Markdown from 'markdown-to-jsx'
 import {useEffect, useState} from "react";
 
-function AWS() {
+function SQS() {
 
     const [markdown, setMarkdown] = useState("");
 
@@ -20,4 +20,4 @@ function AWS() {
         </div>
     )
 }
-export  default AWS;
+export  default SQS;

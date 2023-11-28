@@ -6,6 +6,48 @@
       "path": "/"
     },
     {
+      "label": "AWS",
+      "value": "aws",
+      "path": "/aws",
+      "content": [
+        {
+          "label": "Api Gateway",
+          "value": "aws",
+          "path": "/aws/apigateway"
+        },
+        {
+          "label": "Lambdas",
+          "value": "aws",
+          "path": "/aws/lambdas"
+        },
+        {
+          "label": "Step Functions",
+          "value": "aws",
+          "path": "/aws/stepfunctions"
+        },
+        {
+          "label": "Event Bridge",
+          "value": "aws",
+          "path": "/aws/eventbridge"
+        },
+        {
+          "label": "App Sync",
+          "value": "aws",
+          "path": "/aws/appsync"
+        },
+        {
+          "label": "SNS",
+          "value": "aws",
+          "path": "/aws/sns"
+        },
+        {
+          "label": "SQS",
+          "value": "aws",
+          "path": "/aws/sqs"
+        }
+      ]
+    },
+    {
       "label": "Microservices",
       "value": "microservices",
       "path": "/microservices"
