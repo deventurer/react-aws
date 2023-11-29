@@ -37,6 +37,8 @@
     .nav{
         width: 100%;
         border-bottom: #888888 2px solid;
+        max-width: 768px;
+        overflow-x: scroll;
     }
     .navItem {
         color: lightblue;
@@ -47,8 +49,11 @@
     .navItemChild {
         color: lightblue;
         cursor: pointer;
-        display: block;
+        display: none;
         margin-right: 5px;
         margin-left: 5px;
+    }
+    .active {
+        display: block;
     }
 }

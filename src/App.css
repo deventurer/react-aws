@@ -94,4 +94,13 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .headerTitle {
+    text-align: center;
+    width: 80%;
+    font-size: 0.5em;
+  }
+  .headerImg {
+    width: 50px;
+    height: 50px;
+  }
 }
