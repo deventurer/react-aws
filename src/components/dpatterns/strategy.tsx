@@ -91,7 +91,6 @@ return (
 
             <p>Let us start with a basic UML diagram for the Strategy pattern:</p>
 
-            <img src={"https://upload.wikimedia.org/wikipedia/commons/3/39/Strategy_Pattern_in_UML.png"}/>
         <p>
                 1. <b>Context:</b><br/>
         - This is the class that contains a reference to the strategy interface and can switch between different strategies.
