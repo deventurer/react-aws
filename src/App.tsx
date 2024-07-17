@@ -28,9 +28,12 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Outlet
+    Outlet, Link
 } from "react-router-dom";
 import {Fragment} from 'react'
+import Privacy from "./components/footer/Privacy";
+import Contact from "./components/footer/Contact";
+import Disclaimer from "./components/footer/Disclaimer";
 
 function App() {
   // const [count, setCount] = useState('')
@@ -57,6 +60,7 @@ function App() {
             <Routes>
                     <Fragment>
                         <Route path="/db91" element={<DB91/>} />
+
                         <Route element={<><Navigation/><Outlet/></>}>
                             <Route path="/" element={<Website/>}>
                             </Route>
@@ -96,6 +100,9 @@ function App() {
                             </Route>
                             <Route path="/aws/sqs" element={<SQS/>}>
                             </Route>
+                            <Route path="/footer/privacy" element={<Privacy/>} />
+                            <Route path="/footer/contact" element={<Contact/>} />
+                            <Route path="/footer/disclaimer" element={<Disclaimer/>} />
                         </Route>
 
                     </Fragment>
@@ -103,7 +110,14 @@ function App() {
                 </Routes>
             </div>
       <div className="footer">
-        <h3>Deventurer.com</h3>
+          <Link className="footerItem" to="/about"> <b>About</b>
+          </Link>
+          <Link className="footerItem" to="/footer/Privacy"> <b>Privacy</b>
+          </Link>
+          <Link className="footerItem" to="/footer/contact"> <b>Contact us</b>
+          </Link>
+          <Link className="footerItem" to="/footer/disclaimer"> <b>Disclaimer</b>
+          </Link>
       </div>
         </Router>
   )

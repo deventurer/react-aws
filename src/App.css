@@ -79,9 +79,14 @@ body {
   padding-left: 1em;
 }
 .footer {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   border-top: #888888 2px solid;
   height: 5%;
+}
+.footerItem {
+  width: 25%;
 }
 .container {
   display: flex;
